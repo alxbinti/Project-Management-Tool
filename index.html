@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project Management Tool</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+
+<body>
+    <h1> PROJECT MANAGEMENT TOOL </h1>
+    <nav>
+        <menu>
+            <menuitem>
+                <a>Big Project</a>
+                <menu class="list">
+                    <menuitem>
+                        <!-- <a>Sprint 1</a>
+                        <menu>
+                            <menuitem><a class='sprint_one'>Overview</a></menuitem>
+                        </menu>
+                    </menuitem>
+                    <menuitem>
+                        <a>Sprint 2</a>
+                        <menu>
+                            <menuitem><a class='sprint_two'>Overview</a></menuitem>
+                        </menu> -->
+                    </menuitem>
+                </menu>
+            </menuitem>
+            <menuitem>
+                <a id="add_sprint">Add New Sprint</a>
+            </menuitem>
+            <menuitem>
+                <a id="issue">Add New Issue</a>
+            </menuitem>
+            <menuitem>
+                <a id="filter_by_sprint">Filter by Sprint</a>    
+            </menuitem>
+            <menuitem >
+                <a id="update"> Update</a>
+                <a id="update_type"> Issue type </a>    
+                <a id="update_name"> Issue Name </a>    
+                <a id="update_description"> issue Description </a>    
+            </menuitem>
+        </menu>
+    </nav>
+    <script type="text/javascript" src="./scripts/Models/const.js"></script>
+    <script type="text/javascript" src="./scripts/Models/User.js"></script>
+    <script type="text/javascript" src="./scripts/Models/Issue.js"></script>
+    <script type="text/javascript" src="./scripts/Models/Sprint.js"></script>
+    <script type="text/javascript" src="./scripts/Models/Comments.js"></script>
+    <script type="text/javascript" src="./scripts/Interface/View.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #445;
+    font-family: sans-serif;
+    width: 100vw;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+}
+
+nav>menu {
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+menu menuitem a {
+    display: block;
+}
+
+nav a {
+    background: rgb(7, 136, 72);
+    color: #fff;
+    min-width: 200px;
+    margin: 2px 6px 6px 2px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
